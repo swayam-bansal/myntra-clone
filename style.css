@@ -1,0 +1,322 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Assistant", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+/* Navbar */
+
+
+.navbar {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 1px 25px -6px #0000002a;
+    border: none;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    background-image: url('logo-myntra-41466.png');
+    background-position: center;
+    height: 48px;
+    width: 48px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-logo:hover {
+    cursor: pointer;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}
+
+.nav-items a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.875rem;
+    color: #282c3f;
+    text-transform: uppercase;
+}
+
+.nav-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f6;
+    width: 33%;
+    height: 40px;
+}
+
+.search-icon {
+    margin: 10px 20px;
+    color: #717288;
+    font-size: 0.3rem;
+
+}
+
+.search-box input {
+    background-color: #f5f5f6;
+    border: none;
+    width: 100%;
+    font-size: 0.875rem;
+
+}
+
+.search-box input:focus {
+    outline: none;
+}
+
+.search-box {
+    width: 100%;
+}
+
+.self-items-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-self-items {
+    display: flex;
+    width: 13%;
+    justify-content: space-evenly;
+}
+
+.nav-self-items div {
+    cursor: pointer;
+}
+
+.nav-self-items i {
+    font-size: 0.875rem;
+    color: #282d3ee7;
+
+
+}
+
+.nav-self-items p {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+
+/*Hero section */
+
+.hero-img {
+    background-image: url("https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2022/7/25/9be788ff-39a4-4214-99d0-fc97505aae5a1658752545685-USPA_Desk_Banner.jpg");
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.hero-img:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.navigation i {
+    font-size: 7px;
+    margin: 15px 5px;
+    color: #DBDBDE;
+}
+
+.navigation i:hover {
+    cursor: pointer;
+}
+
+
+.navigation i:nth-of-type(2) {
+
+    color: #7D7F8B;
+}
+
+.featured p,
+.categories p {
+    font-size: 1.8rem;
+    letter-spacing: .15rem;
+    color: #3e4152;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0 65px 30px;
+}
+
+.featured-images {
+    display: flex;
+    justify-content: center;
+}
+
+.f-img {
+    width: 17%;
+    height: 330px;
+    background-size: cover;
+}
+
+.c-img {
+    height: 290px;
+}
+
+.c-img-2 {
+    width: 20%;
+}
+
+.f-img:hover {
+    cursor: pointer;
+}
+
+.fc-img1 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/ca44e488-c06b-48ce-814f-3a1e3e66e08b1691142548139-image_png_840304476.png');
+    background-size: cover;
+}
+
+.fc-img2 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/7abcde7c-18e5-44c5-9cd9-c1490daa842a1691142533559-image_png2078004791.png');
+    background-size: cover;
+}
+
+.fc-img3 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/6ddcd2e5-20c6-4672-9b02-7d2117550f641691142512854-image_png242033865.png');
+    background-size: cover;
+}
+
+.fc-img4 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/b504644b-f446-48c9-b928-36f1958bd19a1691142484406-image_png_292913761.png');
+    background-size: cover;
+}
+
+.fc-img5 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/retaillabs/2023/8/4/921e38ac-f903-4701-a419-df42b9448ef51691142513445-image_png1803300271.png');
+    background-size: cover;
+}
+
+.fc-img6 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/4/944486f4-8cf8-456e-a0d5-c2655bf1deaa1691131597834-image_png_1935947130.png');
+    background-size: cover;
+}
+
+
+.fb-img1 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/81bcb28d-55f3-4d7b-bb5a-7cf7ee7fd8031690773011370-The_Collective.png');
+    background-size: cover;
+}
+
+.fb-img2 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/7aac1f32-1a1a-4ba6-924b-ee1c28553aed1690773011304-Nautica.png');
+    background-size: cover;
+}
+
+.fb-img3 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/437645a4-988c-4f53-aff3-b1fdb34938481690773011106-FCUK.png');
+    background-size: cover;
+}
+
+.fb-img4 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/0c399e2c-9797-483d-bf6c-0852d5d21db21690773010989-BHPC.png');
+    background-size: cover;
+}
+
+.fb-img5 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/7/31/044555a5-9987-4a06-8679-8aeb2dd963f91690773011013-boohooMan.png');
+    background-size: cover;
+}
+
+.fb-img6 {
+    background-image: url('https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/2/805eeb23-ec17-4b50-b798-1244133c02041690955797245-image_png_1993656242.png');
+    background-size: cover;
+}
+
+
+
+
+.c-img:hover {
+    cursor: pointer;
+}
+
+footer {
+    background-color: #FAFBFC;
+    font-size: 0.75rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer li {
+    list-style: none;
+    color: #696b79;
+    font-size: 0.9375rem;
+    padding-bottom: 5px;
+}
+
+footer li:hover,
+.app-link:hover,
+.social-link:hover {
+    cursor: pointer;
+}
+
+footer span {
+    color: #696b79;
+    font-size: 1rem;
+    padding-bottom: 5px;
+}
+
+.f-i-span {
+    color: #282c3f;
+    font-weight: 700;
+}
+
+.f-quality {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: flex-start;
+}
+
+.f-quality img {
+    width: 48px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer ul {
+    margin-bottom: 15px;
+}
+
+footer p {
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #282c3f;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.app-link {
+    height: 42px;
+    margin-bottom: 15px;
+}
+
+.social-link {
+    height: 20px;
+    width: 20px;
+    margin: 0 5px;
+}
